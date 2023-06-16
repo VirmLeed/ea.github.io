@@ -78,20 +78,6 @@ body, html {
     /*padding: 0 2rem;*/
 }
 
-/*
-.langSelector {
-    background: var(--colorBackground);
-    color: var(--colorText);
-    font-size: 1.5rem;
-    border-style: none;
-    cursor: pointer;
-}
-
-.langSelector option {
-    background: var(--colorBackground);
-    color: var(--colorText);
-}*/
-
 .selectedLang {
     height: 100%;
     padding: 0.5rem 1rem;
