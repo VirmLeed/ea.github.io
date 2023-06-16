@@ -1,18 +1,123 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Интересности</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	
-	<body>
-		<section>
-			<h2>
-				Лучшая страница лучшего проекта
-			</h2>
-			<p>
-				главное - не забыть сделать
-			</p>
-		</section>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Entertainment Assistant</title>
+	<link rel="icon" type="image/png" href="pics/logo.png"/>
+	<link rel="stylesheet" href="styles.css"/>
+	<link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+	<!-- NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION -->
+	<header class="navbar">
+		<a href="index.html" class="logoContainer mainLink">
+			<img src="pics/logo.png" alt="ea logo" id="navbarLogo">
+			<p>Entertainment Assistant</p>
+		</a>
+		<div class="menuToggle">
+			<div class="bar"></div>
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+		<ul class="navbarMenu">
+			<div>
+				<a href="index.html" class="navbarLink lngAbout mainLink" id="aboutButton">About</a>
+			</div>
+			<div>
+				<a href="download.html" class="navbarLink lngDownload mainLink" id="downloadButton">Download</a>
+			</div>
+			<div>
+				<a href="support.html" class="navbarLink lngHelp mainLink" id="supportButton">Help</a>
+			</div>
+			<div>
+				<a href="team.html" class="navbarLink lngTeam mainLink" id="teamButton">Our team</a>
+			</div>
+		</ul>
+		<div class="langContainer">
+			<!--
+			<select class="langSelector">
+				<option value="en" selected>
+					EN
+				</option>
+				<option value="ru">
+					RU
+				</option>
+			</select>-->
+			<div class="selectedLang">
+				<p class="lngSelected">English</p>
+				<img src="pics/langs/en.png" alt="lang image">
+			</div>
+			<ul>
+				<li class="en">
+					<img src="pics/langs/en.png" alt="lang image">
+					<a>English</a>
+				</li>
+				<li class="ru">
+					<img src="pics/langs/ru.png" alt="lang image">
+					<a>Русский</a>
+				</li>
+				<li class="jp">
+					<img src="pics/langs/jp.png" alt="lang image">
+					<a>日本</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY -->
+	<!-- COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER -->
+	<div id="main">
+		<div id="mainText">
+			<h1>Entertainment Assistant</h1>
+			<h class="lngSlogan">Bringing fun since 2021</h>
+		</div>
+	</div>
+	<!-- INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO -->
+	<div id="info">
+		<div class="infoGrid">
+			<div class="info1">
+				<h1 class="lngIntroductionName"></h1>
+				<a class="lngIntroduction"></a>
+			</div>
+			<div class="info2">
+				<h1 class="lngWhyName"></h1>
+				<a class="lngWhy"></a>
+			</div>
+			<img class="info3 infoImg" src="pics/index/map.png" alt="mapImg">
+			<div class="info4">
+				<h1 class="lngMapName">Application starting page</h1>
+				<a class="lngMap">The application, when loaded, opens the place where the user was last time, from this page you can already go to such tabs as:</a>
+				<ul>
+					<li class="lngSearchLi">Search</li>
+					<li class="lngTimeLi">Entertainment and leisure</li>
+					<li class="lngReviewsLi">Reviews</li>
+					<li class="lngFavsLi">Favorites</li>
+					<li class="lngProfileLi">Profile</li>
+					<li class="lngSettingsLi">Settings</li>
+				</ul>
+			</div>
+			<img class="info5 infoImg" src="pics/index/places.png" alt="placesImg">
+			<div class="info6">
+				<h1 class="lngPlacesName"></h1>
+				<a class="lngPlaces"></a>
+			</div>
+			<div class="info7">
+				<div class="reviewsCont">
+					<img class="infoImg" src="pics/index/reviews.png" alt="reviewsImg">
+					<a class="lngReview1">User Artem Sadykov left a comment</a>
+					<a class="lngReview2">Horrible place near the tech uni, corresponding contingent</a>
+				</div>
+			</div>
+			<div class="info8">
+				<h1 class="lngReviewsName"></h1>
+				<a  class="lngReviews"></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS -->
+	<script src="lang.js"></script>
+	<script src="app.js"></script>
+</body>
 </html>

@@ -1,0 +1,81 @@
+#main {
+    position: relative;
+    background-image: url('pics/dbg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100svh;
+    background-size: 150vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainBox {
+    position: absolute;
+    font-size: 2rem;
+    background: var(--colorPanel);
+    color: var(--colorText);
+    padding: 2rem;
+    border-radius: 16px;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.downloadName {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.downloadName img {
+    height: 2rem;
+}
+
+.downloadGrid {
+    display: flex;
+    gap: 10svw;
+    align-items: center;
+    justify-content: center;
+}
+
+.downloadEntry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qrCode {
+    padding: 1rem;
+    border-radius: 4svw;
+    height: auto;
+    width: 30svw;
+}
+
+@media screen and (max-width: 1200px) {
+    #main {
+      background-size: 250vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #mainBox {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .downloadGrid {
+        flex-direction: column;
+        gap: 2svh;
+    }
+
+    .qrCode {
+        border-radius: 5svh;
+        height: 30svh;
+        width: auto;
+    }
+}
