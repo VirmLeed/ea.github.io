@@ -110,7 +110,9 @@
         font-size: 1.5rem;
         padding: 1rem;
     }
+}
 
+@media screen and (max-aspect-ratio: 1/1) {
     .infoGrid {
         display: flex;
         flex-direction: column;

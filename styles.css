@@ -10,6 +10,7 @@ body, html {
     font-family: tahoma, sans-serif;
     scrollbar-color: var(--colorSpec) var(--colorPanel);
     scrollbar-width: thin;
+    background: var(--colorBackground);
     /*overflow: hidden;*/
 }
 
