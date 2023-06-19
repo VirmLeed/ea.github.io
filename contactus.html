@@ -8,7 +8,7 @@
 	<link rel="icon" type="image/png" href="pics/logo.png"/>
 	<meta property="og:image" content="pics/mbg.png"/>
 	<link rel="stylesheet" href="styles.css"/>
-	<link rel="stylesheet" href="download.css"/>
+	<link rel="stylesheet" href="contactus.css"/>
 </head>
 <body>
 	<!-- NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION -->
@@ -52,32 +52,50 @@
 	<!-- BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY -->
 	<!-- COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER COVER -->
 	<div id="main">
-		<div id="mainBox">
-            <div class="downloadGrid">
-                <div class="downloadEntry">
-                    <div class="downloadName">
-                        <img src="pics/download/android.png" alt="androidImg">
-                        <h1>Android</h1>
-                    </div>
-                    <a href="https://www.play.google.com/">
-                        <img class="qrCode" src="pics/download/androidQr.png" alt="androidQr">
-                    </a>
-                </div>
-                <div class="downloadEntry">
-                    <div class="downloadName">
-                        <img src="pics/download/apple.png" alt="iosImg">
-                        <h1>iOs</h1>
-                    </div>
-                    <a href="https://www.apple.com/app-store/">
-                        <img class="qrCode" src="pics/download/appleQr.png" alt="iosQr">
-                    </a>
-                </div>
-            </div>
-			<a href="support.html" class="lngDownloadProblem mainLink">Having problems downloading?</a>
-		</div>
+        <div id="mainPanel">
+            <form id="formBox" onsubmit="sendEmail(); reset(); return false;">
+				<a class="lngReadBefore">Before messaging us, please check out our FAQs, as your question may have already been addressed.</a>
+				<div id="textBox">
+					<div id="detailsColumn">
+						<div class="column">
+							<a class="lngQType">Type of your question</a>
+							<select id="messageType" class="input">
+								<option value="AppTechQ" class="lngAppQ">Application techincal question</option>
+								<option value="CoopQ" class="lngCoopQ"">Cooperation</option>
+								<option value="AppIdea" class="lngAppIdea">Application idea</option>
+								<option value="GeneralQ" class="lngGeneralQ">General question</option>
+							</select>
+						</div>
+						<div class="column">
+							<a class="lngQEmail">Your email</a>
+							<input class="input" type="text" id="mail" placeholder="samplemail@com.mail" required>
+						</div>
+						<div class="column">
+							<a class="lngQConfirm">Confirm your email</a>
+							<input class="input" type="text" id="mailTest" placeholder="samplemail@com.mail" required>
+							<a id="wrong" class="lngWrongEmail">Emails don't match</a>
+						</div>
+						<div class="column">
+							<a class="lngQSubject">Subject</a>
+							<input class="input" type="text" id="subject" required>
+						</div>
+					</div>
+					<div id="messageColumn">
+						<a class="lngQMessage">Message</a>
+						<textarea class="input" id="message" cols="20" rows="15" required></textarea>
+					</div>
+				</div>
+				<div>
+					<button type="submit" class="lngContactSend input">Send</button>
+					<a id="sent" class="lngSentEmail">Sent!</a>
+				</div>
+            </form>
+        </div>
 	</div>
 
 	<!-- SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS -->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="contactus.js"></script>
 	<script src="lang.js"></script>
 	<script src="app.js"></script>
 </body>

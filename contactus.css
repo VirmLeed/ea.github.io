@@ -1,0 +1,114 @@
+#main {
+    position: absolute;
+    top: 3rem;
+    font-size: 1rem;
+    background: var(--colorBackground);
+    color: var(--colorText);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#mainPanel {
+    background: var(--colorPanel);
+    color: var(--colorText);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 16px;
+    border: 2px solid var(--colorSpec);
+    width: 80svw;
+}
+
+#wrong {
+    display: none;
+    color:darkred;
+}
+
+#wrong.active {
+    display: block;
+}
+
+#sent {
+    display: none;
+    color:darkgreen;
+}
+
+#sent.active {
+    display: inline-block;
+}
+
+#detailsColumn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 16px;
+}
+
+#messageColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 16px;
+}
+
+#textBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 32px;
+}
+
+#formBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 32px;
+}
+
+#message {
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input {
+    background: var(--colorBackground);
+    color: var(--colorText);
+    border: 1px solid var(--colorSpec);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+@media screen and (max-width: 900px) {
+    #main {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    #mainPanel{
+        padding: 8px;
+        width: auto;
+    }
+
+    #textBox {
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-aspect-ratio: 1/1) {
+}

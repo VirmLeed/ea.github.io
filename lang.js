@@ -120,4 +120,119 @@ const langArr = {
         "ru" : "Проблемы с загрузкой?",
         "jp" : "ダウンロードに問題がありますか?",
     },
+    "Faq" : {
+        "en" : "Frequently asked questions",
+        "ru" : "Часто задаваемые вопросы",
+        "jp" : "よくある質問",
+    },
+    "Q1" : {
+        "en" : "Why is there no real questions?",
+        "ru" : "Почему тут нету настоящих вопросов?",
+        "jp" : "本当の質問がないのはなぜですか?",
+    },
+    "A1" : {
+        "en" : "Because we don't have any yet. If they appear, we will put them here.",
+        "ru" : "Потому что у нас их пока нет. Если они появятся, мы разместим их здесь.",
+        "jp" : "本当の質問がないのはなぜですか?",
+    },
+    "Q2" : {
+        "en" : "What kinds of questions will you put here?",
+        "ru" : "Какие вопросы вы сюда добавляете?",
+        "jp" : "ここにはどのような質問を入れますか?",
+    },
+    "A2" : {
+        "en" : "We will include questions that are often asked and yet have a simple and usually similar answers.",
+        "ru" : "Мы будем добавлять вопросы, которые часто задают, но при этом они имеют простые и обычно похожие ответы.",
+        "jp" : "よく聞かれる質問ですが、答えは簡単で、通常は同様のものが含まれます。",
+    },
+    "Q3" : {
+        "en" : "What score does this project deserve?",
+        "ru" : "Какой оценки заслуживает этот проект?",
+        "jp" : "このプロジェクトは何点に値しますか?"
+    },
+    "A3" : {
+        "en" : "Of course it deserves 100 points.",
+        "ru" : "Конечно он заслуживает 100 баллов.",
+        "jp" : "もちろん100点満点です。",
+    },
+    "NoQ" : {
+        "en" : "Haven't found an answer to your question?",
+        "ru" : "Не нашли ответ на свой вопрос?",
+        "jp" : "質問に対する答えが見つかりませんでしたか?",
+    },
+    "ContactUsButton" : {
+        "en" : "Contact us!",
+        "ru" : "Свяжитесь с нами!",
+        "jp" : "お問い合わせ！",
+    },
+    "ReadBefore" : {
+        "en" : "Before messaging us, please check out our FAQs, as your question may have already been addressed.",
+        "ru" : "Перед тем, как отправить нам сообщение, ознакомьтесь с часто задаваемыми вопросами, так как ваш вопрос, возможно, уже обсуждался.",
+        "jp" : "あなたの質問がすでに解決されている可能性があるため、メッセージを送る前によくある質問をご確認ください。",
+    },
+    "QType" : {
+        "en" : "Type of your question",
+        "ru" : "Тип вашего вопроса",
+        "jp" : "質問の種類",
+    },
+    "AppQ" : {
+        "en" : "Application techincal question",
+        "ru" : "Технический вопрос по приложению",
+        "jp" : "アプリケーションの技術的な質問",
+    },
+    "CoopQ" : {
+        "en" : "Cooperation",
+        "ru" : "Сотрудничество",
+        "jp" : "協力",
+    },
+    "AppIdea" : {
+        "en" : "Application idea",
+        "ru" : "Идея для приложения",
+        "jp" : "アプリケーションのアイデア",
+    },
+    "GeneralQ" : {
+        "en" : "General question",
+        "ru" : "Общий вопрос",
+        "jp" : "一般的な質問",
+    },
+    "QEmail" : {
+        "en" : "Your email",
+        "ru" : "Ваша почта",
+        "jp" : "あなたのメールアドレス",
+    },
+    "QConfirm" : {
+        "en" : "Confirm your email",
+        "ru" : "Подтвердите вашу почту",
+        "jp" : "メールを確認してください",
+    },
+    "WrongEmail" : {
+        "en" : "Emails don't match",
+        "ru" : "Почта не совпадает",
+        "jp" : "メールが一致しません",
+    },
+    "QSubject" : {
+        "en" : "Subject",
+        "ru" : "Тема",
+        "jp" : "主題",
+    },
+    "QMessage" : {
+        "en" : "Message",
+        "ru" : "Сообщение",
+        "jp" : "メッセージ",
+    },
+    "ContactSend" : {
+        "en" : "Send",
+        "ru" : "Отправить",
+        "jp" : "送信",
+    },
+    "SentEmail" : {
+        "en" : "Sent!",
+        "ru" : "Отправлено!",
+        "jp" : "送信済！",
+    },
+    "ContactUs" : {
+        "en" : "Contact us",
+        "ru" : "Свяжитесь с нами",
+        "jp" : "お問い合わせ",
+    }
 }

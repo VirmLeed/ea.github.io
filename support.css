@@ -69,11 +69,23 @@
 }
 
 .question h2::before {
-    content: "● "
+    content: "- "
 }
 
 .question a {
     padding-left: 1rem;
+}
+
+.lngContactUsButton:link {
+    color:dodgerblue;
+}
+
+.lngContactUsButton:visited {
+    color:darkorchid;
+}
+
+.contact {
+    padding-top: 1rem;
 }
 
 @media screen and (max-width: 900px) {

@@ -56,6 +56,14 @@
     width: 30svw;
 }
 
+.lngDownloadProblem:link {
+    color:dodgerblue;
+}
+
+.lngDownloadProblem:visited {
+    color:darkorchid;
+}
+
 @media screen and (max-width: 1200px) {
     #main {
       background-size: 250vh;

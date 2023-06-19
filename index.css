@@ -81,22 +81,32 @@
     position: relative;
 }
 
-.lngReview1 {
+.review1 {
     color: var(--colorBackground);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     font-size: 1vw;
     position: absolute;
     left: 25.5%;
-    top: 57%;
+    top: 56%;
     width: 60%;
+    height: 7.5%;
 }
 
-.lngReview2 {
+.review2 {
     color: var(--colorBackground);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     font-size: 1vw;
     position: absolute;
     left: 25.5%;
-    top: 67.5%;
+    top: 66%;
     width: 60%;
+    height: 9%
 }
 
 @media screen and (max-width: 1200px) {
@@ -110,9 +120,7 @@
         font-size: 1.5rem;
         padding: 1rem;
     }
-}
 
-@media screen and (max-aspect-ratio: 1/1) {
     .infoGrid {
         display: flex;
         flex-direction: column;
@@ -124,19 +132,11 @@
         width: 80vw;
     }
 
-    .lngReview1 {
+    .review1 {
         font-size: 3vw;
-        position: absolute;
-        left: 25%;
-        top: 57.5%;
-        width: 55%;
     }
 
-    .lngReview2 {
+    .review2 {
         font-size: 3vw;
-        position: absolute;
-        left: 25%;
-        top: 68%;
-        width: 55%;
     }
 }

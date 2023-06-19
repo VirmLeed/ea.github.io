@@ -7,5 +7,4 @@ faqName.addEventListener('click', fold);
 function fold(){
     faqFolder.classList.toggle('active');
     faqArrow.classList.toggle('active');
-    console.log("active");
 }
