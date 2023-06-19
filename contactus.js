@@ -9,6 +9,7 @@ let sent = document.getElementById("sent");
 
 function sendEmail(){
     if(!mail.value.localeCompare(truemail.value)){
+        reset(); 
         wrong.classList.remove('active');
         Email.send({
             SecureToken : "3b588c44-1ddf-466c-b8d2-207a7aeb752d",
@@ -18,7 +19,6 @@ function sendEmail(){
             Body : message.value + '\n // ' + truemail.value,
         }).then(/*message => alert(message)*/);
         sent.classList.add('active');
-        reset(); 
     }else{
         wrong.classList.add('active');
         sent.classList.remove('active');
