@@ -50,7 +50,6 @@ body, html {
 .navbarLink {
     padding: 0 0.3rem;
     height: 100%;
-    width: 100%;
     color: var(--colorText);
     text-decoration: none;
 }
