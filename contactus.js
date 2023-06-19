@@ -18,6 +18,7 @@ function sendEmail(){
             Body : message.value + '\n // ' + truemail.value,
         }).then(/*message => alert(message)*/);
         sent.classList.add('active');
+        reset(); 
     }else{
         wrong.classList.add('active');
         sent.classList.remove('active');
