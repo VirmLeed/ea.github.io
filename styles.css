@@ -155,6 +155,11 @@ body, html {
     transition: all 0.2s ease;
 }
 
+.navbarLink:focus { 
+    background-color: var(--colorSelection); 
+    transition: all 0.2s ease;
+}
+
 @media screen and (max-width: 1200px) {
     .logoContainer p {
       display: none;
