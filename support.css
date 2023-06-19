@@ -20,6 +20,7 @@
     padding: 32px;
     border-radius: 16px;
     border: 2px solid var(--colorSpec);
+    width: 80vw;
     width: 80svw;
 }
 

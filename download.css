@@ -3,6 +3,7 @@
     background-image: url('pics/dbg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
+    height: 100vh;
     height: 100svh;
     background-size: 150vw;
     overflow: hidden;
@@ -37,6 +38,7 @@
 
 .downloadGrid {
     display: flex;
+    gap: 10vw;
     gap: 10svw;
     align-items: center;
     justify-content: center;
@@ -51,8 +53,10 @@
 
 .qrCode {
     padding: 1rem;
+    border-radius: 4vw;
     border-radius: 4svw;
     height: auto;
+    width: 30vw;
     width: 30svw;
 }
 
@@ -80,11 +84,14 @@
 @media screen and (max-aspect-ratio: 1/1) {
     .downloadGrid {
         flex-direction: column;
+        gap: 2vh;
         gap: 2svh;
     }
 
     .qrCode {
+        border-radius: 5vh;
         border-radius: 5svh;
+        height: 30vh;
         height: 30svh;
         width: auto;
     }
